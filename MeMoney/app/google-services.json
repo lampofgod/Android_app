@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "291250134015",
+    "firebase_url": "https://memoney-10f3c.firebaseio.com",
+    "project_id": "memoney-10f3c",
+    "storage_bucket": "memoney-10f3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291250134015:android:b7df41f86fc80b90",
+        "android_client_info": {
+          "package_name": "com.example.akaka.memoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291250134015-1jc4bkh8rp26c8rs69pfk9cf05k5tt5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akaka.memoney",
+            "certificate_hash": "04e2c6f20aa54fb466facd1d9885eaf18291e4ea"
+          }
+        },
+        {
+          "client_id": "291250134015-lit2cd8nb6t92v8qbdmr1gruo3vap0nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmVKJJSa7VhQsejREWYJfsuJQ8pDm-XAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291250134015-lit2cd8nb6t92v8qbdmr1gruo3vap0nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
