@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_Income">
+
+    <!--ส่วนของเงินเดือน-->
+    <TextView
+        android:id="@+id/Income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="70dp"
+        android:text="เงินเดือน"
+        android:textSize="@dimen/size16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_monthlyIncome"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:ems="10"
+        android:hint="จำนวนเงิน"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/size16"
+        app:layout_constraintBaseline_toBaselineOf="@id/Income"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnmo_Income"
+        android:layout_width="113dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/Income"
+        app:layout_constraintTop_toBottomOf="@+id/input_monthlyIncome" />
+
+    <!--ส่วนของรายได้เสริม-->
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="28dp"
+        android:text="Description"
+        android:textSize="@dimen/size16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additional_Income" />
+
+    <EditText
+        android:id="@+id/input_Description"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="120dp"
+        android:ems="10"
+        android:hint="คำอธิบาย"
+        android:inputType="textMultiLine"
+        android:textSize="@dimen/size16"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Description"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_insetadditionalIncome"
+        android:layout_width="113dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:text="Button"
+        app:layout_constraintStart_toEndOf="@+id/Income"
+        app:layout_constraintTop_toBottomOf="@+id/input_Description" />
+
+    <EditText
+        android:id="@+id/input_additionalIncome"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:ems="10"
+        android:hint="จำนวนเงิน"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/size16"
+        app:layout_constraintBaseline_toBaselineOf="@+id/additional_Income"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/additional_Income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="200dp"
+        android:text="รายได้เสริม"
+        android:textSize="@dimen/size16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--ส่วนของยอดรวม -->
+
+    <TextView
+        android:id="@+id/total_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="100dp"
+        android:text="ยอดรวม"
+        android:textSize="@dimen/size16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Description" />
+
+</android.support.constraint.ConstraintLayout>
